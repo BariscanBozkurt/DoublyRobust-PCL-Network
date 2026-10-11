@@ -1,0 +1,17 @@
+# Install with:  pip install -r requirements.txt
+# The simulation scripts were run with Python 3.12 and the versions below; nearby versions should work.
+# PyTorch: the CPU wheel works for every script (CUDA is used when available but never required).
+# The analysis notebooks need only numpy, pandas and matplotlib and run on any recent Python;
+# the shipped notebook outputs and figures were produced with matplotlib 3.7.4.
+torch==2.10.0
+torchvision==0.25.0
+numpy==2.3.5
+pandas==3.0.0
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib>=3.7
+seaborn==0.13.2
+sympy==1.14.0
+tqdm==4.67.1
+densratio==0.3.0
+jupyterlab==4.5.3
